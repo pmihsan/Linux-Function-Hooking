@@ -1,0 +1,3 @@
+gcc -o file.so file.c -fPIC -shared -ldl
+
+Add the path of the shared object file(.so) to the env LD_PRELOAD
